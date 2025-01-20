@@ -14,12 +14,18 @@
     --text-xl: 4rem;
 }
 
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body, button {
     font: 500 1rem/1.5 "Montserrat", sans-serif;
 }
 
 h1, h2 {
-    font-family: "Syne", serif;
+    font-family: "Syne", sans-serif;
 }
 
 h1 {
@@ -30,4 +36,9 @@ h1 {
 h2 {
     font-size: var(--text--lg);
     line-height: 1.2;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
 }

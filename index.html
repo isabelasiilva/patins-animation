@@ -9,11 +9,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Montserrat:wght@500&family=Syne:wght@700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@500&family=Syne:wght@700&display=swap" rel="stylesheet">    
 </head>
 
 <body>
+    <nav><!-- se nao tivesse nada clicável aqui nessa seção, poderia chamar header, mas por acessibilidade é melhor chamar nav pq da pra navegar dentro -->
+        <a href="#">
+            <img src="assets/logo.svg" alt="">
+        </a>
+        <a href="#" title="Icon de sacola">
+            <img src="assets/icons/bag.svg" alt="">
+            <span>1</span>
+        </a>
+    </nav>
 
+    <section class="hero">
+        <div>
+            <h1>Snitap, sua vida mais
+                <div>
+                    <span>radical</span>
+                    <span>divertida</span>
+                    <span>saudável</span>
+                    <span>radical</span> <!-- repete o primeiro pra ficar com o memso efeito de transição quando retornar para o inicio da fila -->
+                </div>
+            </h1>
+            </h1>
+        </div>
+    </section>
 </body>
 
 </html>
